@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Ecommercecontext } from "..App";
+import { Ecommercecontext } from "../App";
 
 function About() {
   const { data } = useContext(Ecommercecontext);

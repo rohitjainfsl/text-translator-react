@@ -1,9 +1,9 @@
 import React, { createContext, useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./context/Home";
-import Header from "./contextHeader";
-import About from "./contextAbout";
-import SingleBlog from "./contextSingleBlog";
+import Header from "./context/Header";
+import About from "./context/About";
+import SingleBlog from "./context/SingleBlog";
 import axios from "axios";
 import Register from "./context/Register";
 import Login from "./context/Login";
