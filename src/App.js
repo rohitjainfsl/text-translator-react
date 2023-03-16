@@ -12,7 +12,7 @@ export const Ecommercecontext = createContext(null);
 
 function App() {
   const [data, setData] = useState([]);
-  const [form, setFormDetails] = useState({});
+  const [form, setFormDetails] = useState([]);
 
   useEffect(() => {
     async function fatchData() {

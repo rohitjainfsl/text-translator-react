@@ -22,9 +22,9 @@ function Register() {
       user: user,
       password: password,
     };
-    setFormDetails({
+    setFormDetails([
       ...form, userDetails
-    });
+    ]);
   }
 
   return (
