@@ -23,7 +23,7 @@ function Register() {
       password: password,
     };
     setFormDetails(
-      [...form, {userDetails}]);
+      [...form, {...userDetails}]);
   }
 
   return (
