@@ -2,13 +2,7 @@ import { useEffect, useState } from "react";
 import "./textTranslate.css";
 
 function Main() {
-  // const bodyStyle = {
-  //   backgroundImage: "url(background.jpg)",
-  //   backgroundRepeat: "no-repeat",
-  //   backgroundSize: "cover",
-  //   backgroundPosition: "center",
-  // };
-  // document.body.style = bodyStyle;
+  document.title = "Text Translator App";
 
   const API_KEY = import.meta.env.VITE_API_KEY;
   const API_HOST = import.meta.env.VITE_API_HOST;
