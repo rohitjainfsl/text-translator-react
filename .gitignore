@@ -23,8 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
+.env
 src/assets
 src/context
+src/passwordGenerator
 src/App.css
 src/App.js
 src/App.jsx

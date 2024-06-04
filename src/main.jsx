@@ -5,6 +5,8 @@ import ReactDOM from "react-dom/client";
 // import Sum from "./Sum";
 // import Counter from "./Counter";
 // import TodoList from "./TodoList";
-import Main from "./passwordGenerator/Main";
+// import Main from "./passwordGenerator/Main";
+import Main from "./translatorApp/Main";
+// import Temp from "./Temp";
 
 ReactDOM.createRoot(document.getElementById("root")).render(<Main />);
